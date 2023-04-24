@@ -1,0 +1,3 @@
+git init -> Incializa el repositorio
+git status -> información de la carpeta
+code . -> abrir el vs code en la misma dirección
