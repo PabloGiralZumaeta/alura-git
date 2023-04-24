@@ -1,3 +1,9 @@
 git init -> Incializa el repositorio
 git status -> información de la carpeta
 code . -> abrir el vs code en la misma dirección
+git log -> Historial de cambios
+git log --oneline -> Ver en algo más resumido el historial
+git log -p -> Ver el historial con los cambios detallados
+git log --pretty="format:%H" -> para ver solo los hash
+
+NOTA:  El --pretty="format:%H" tiene más formas como el --pretty="format:%h %s" (con este veremos el hash acortado y el submit o mensaje)
