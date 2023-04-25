@@ -7,3 +7,21 @@ git log -p -> Ver el historial con los cambios detallados
 git log --pretty="format:%H" -> para ver solo los hash
 
 NOTA:  El --pretty="format:%H" tiene más formas como el --pretty="format:%h %s" (con este veremos el hash acortado y el submit o mensaje)
+
+
+/*******************/
+git init --bare -> Crea un repositorio de solo cambios que no contiene código sino registros
+
+
+git remote add (nombre del servidor) (ruta del servidor) -> para añadir un servidor remoto
+
+
+git remote -> para ver los servidore que tenemos registrados
+
+git remote -v -> ver los servidores con la ruta de los mismos
+
+
+git clone (ruta pero debe tener la ruta asi /c/Users/Usuario/OneDrive/ONE/GIT-Y-GITHUB/servidor 
+)  (nombre que quieres que tenga o ninguno)
+
+NOTA : $ git remote rm (nombre o ruta a eliminar) ->
