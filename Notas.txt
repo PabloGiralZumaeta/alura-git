@@ -25,3 +25,15 @@ git clone (ruta pero debe tener la ruta asi /c/Users/Usuario/OneDrive/ONE/GIT-Y-
 )  (nombre que quieres que tenga o ninguno)
 
 NOTA : $ git remote rm (nombre o ruta a eliminar) ->
+
+
+/******************/
+
+git push (nombre del servidor) (rama)
+
+NOTA por defecto dentro de la carpeta este tendra el nombre de "origin" para cambiarlo hacemos esto ->
+
+git remote rename origin(nombre antiguo) local(nombre nuevo)
+
+/***********/
+git pull (servidor ) (rama) -> trae desde el servidor el contenido modificado
