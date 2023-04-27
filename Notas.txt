@@ -58,3 +58,15 @@ git merge (rama a fusionar en la que estas posicionada) -> OJO: debes estar en l
 
 /*****************/
 git rebase (nombre del archivo a traer antes) -> Para traer el historial de esa rama a la rama principal donde estas
+
+/********/
+NOTA : Para retroceder antes un add solamente debemos poner: 
+git restore (nombre del archivo)
+
+
+Si quereremos hacerlo cuando ya hicimos el add 
+git restore --staged (nombre del archivo)
+
+
+Si ya enviaste el commit
+git revert (codigo del historial)
