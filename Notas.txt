@@ -54,3 +54,7 @@ git checkout -b (nombre) -> asi creamos y nos cambiamos al mismo tiempo de rama
 
 /************/
 git merge (rama a fusionar en la que estas posicionada) -> OJO: debes estar en la rama que quieres como principal para que conserve el nombre
+
+
+/*****************/
+git rebase (nombre del archivo a traer antes) -> Para traer el historial de esa rama a la rama principal donde estas
