@@ -50,3 +50,7 @@ git branch (nombre)-> crea otra rama
 git checkout (nombre) -> se mueve a la rama especificada
 
 git checkout -b (nombre) -> asi creamos y nos cambiamos al mismo tiempo de rama
+
+
+/************/
+git merge (rama a fusionar en la que estas posicionada) -> OJO: debes estar en la rama que quieres como principal para que conserve el nombre
