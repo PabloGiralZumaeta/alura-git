@@ -37,3 +37,16 @@ git remote rename origin(nombre antiguo) local(nombre nuevo)
 
 /***********/
 git pull (servidor ) (rama) -> trae desde el servidor el contenido modificado
+
+
+
+
+
+
+/**************/
+
+git branch -> ver las ramas 
+git branch (nombre)-> crea otra rama
+git checkout (nombre) -> se mueve a la rama especificada
+
+git checkout -b (nombre) -> asi creamos y nos cambiamos al mismo tiempo de rama
