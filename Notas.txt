@@ -70,3 +70,18 @@ git restore --staged (nombre del archivo)
 
 Si ya enviaste el commit
 git revert (codigo del historial)
+
+
+/***********/
+
+
+git stash -> hace que se guarde los cambios hasta el momento el algun lugar y los deja a como estuvo hasta antes del ultimo cambios
+
+
+git stash list -> lista de stash que tenemos. Pueden ser muchos
+
+git stash apply (numero) -> regresa y hace un merge al documento actual 
+
+git stash drop (numero)-> elimina lo que tenga en el stash
+
+git stash pop -> fusiona y elimina el ultimo stash
