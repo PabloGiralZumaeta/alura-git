@@ -95,3 +95,14 @@ git checkout id-hash
 
 NOTA: Podemos manipularlo y jugar con este pero no se guardara cuando regresemos a la rama que queramos.
 Para guardarlo necesitamos que a partir de ahi, creemos una rama nueva
+
+
+
+
+/*******************/
+
+git diff (archivo) -> Se usa para ver los cambios que haz añadido NOTA: Solo funcionara si no le haz dado al add
+
+
+git diff (hash de alguna version)..(hash de otra version) ->Compara los cambiios entre ambos 
+SUGERENCIA: Pon el más antiguo primero para visualizarlo mejor
