@@ -85,3 +85,13 @@ git stash apply (numero) -> regresa y hace un merge al documento actual
 git stash drop (numero)-> elimina lo que tenga en el stash
 
 git stash pop -> fusiona y elimina el ultimo stash
+
+
+/*******/
+
+Para viajar en distintos tiempos del commit 
+
+git checkout id-hash
+
+NOTA: Podemos manipularlo y jugar con este pero no se guardara cuando regresemos a la rama que queramos.
+Para guardarlo necesitamos que a partir de ahi, creemos una rama nueva
